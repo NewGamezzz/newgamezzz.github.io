@@ -2,70 +2,130 @@
   type: map
   contents:
     - name: Full Name
-      [cite_start]value: Thanapat Trachu [cite: 1]
-    - name: Languages
-      [cite_start]value: Thai (Native), English (TOEFL iBT 102) [cite: 64]
+      value: Thanapat Trachu
+    - name: Location
+      value: Los Angeles, CA, USA
+    - name: Email
+      value: thanapat.trachu@gmail.com
+    - name: GitHub
+      value: https://github.com/NewGamezzz
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/thanapat-trachu-602551227/
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Science in Computer Science
-      [cite_start]institution: University of Southern California (USC), Los Angeles, CA [cite: 1, 8]
-      [cite_start]year: 2025 - 2027 (Expected) [cite: 13]
-      [cite_start]description: Research focus on self-supervised and representation learning for speech processing. [cite: 5]
-    - title: Bachelor of Engineering in Computer Engineering
-      [cite_start]institution: Chulalongkorn University, Thailand [cite: 8]
-      [cite_start]year: 2019 - 2023 [cite: 13]
-      [cite_start]description: GPA 3.92 (First-Class Honors). [cite: 8]
+    - title: M.S. in Computer Science
+      institution: University of Southern California
+      year: 2025 - 2027
+    - title: B.Eng. in Computer Engineering (First-Class Honors, GPA 3.92)
+      institution: Chulalongkorn University
+      year: 2019 - 2023
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Visiting Collaborator
-      [cite_start]institution: Carnegie Mellon University (Supervised by Prof. Shinji Watanabe) [cite: 10, 11]
-      [cite_start]year: October 2025 - Present [cite: 14]
-      [cite_start]description: Improving single-stream token codecs for speech generation and recognition. [cite: 15]
+      institution: Carnegie Mellon University
+      year: 2025 - Present
+      description:
+        - Working with Prof. Shinji Watanabe
+        - Improving single-stream token codec models for speech generation and recognition
     - title: Research Assistant
-      [cite_start]institution: Chulalongkorn University (Supervised by Dr. Ekapol Chuangsuwanich) [cite: 16, 17]
-      [cite_start]year: 2023 - 2025 [cite: 18]
-      description: 
-        - [cite_start]Improved speech enhancement models for real-time applications and low-resource devices. [cite: 19]
-        - [cite_start]Developed artifacts-amplification methods using speech enhancement for anti-spoofing. [cite: 20, 21]
-    - title: Undergraduate Researcher
-      [cite_start]institution: Computational Molecular Biology Group, Chulalongkorn University [cite: 22]
-      [cite_start]year: 2020 - 2021 [cite: 22]
-      [cite_start]description: Trained YOLOv5 for Cytomegalovirus detection (0.91 mAP) and reimplemented report generation models. [cite: 25, 27]
+      institution: Chulalongkorn University
+      year: 2023 - 2025
+      description:
+        - Worked with Asst. Prof. Ekapol Chuangsuwanich
+        - Developed speech enhancement models for real-time and low-resource settings
+        - Studied explainability in anti-spoofing using speech enhancement
+        - Led dentist voice assistant web application project
+    - title: Research Member, Computational Molecular Biology Group
+      institution: Chulalongkorn University
+      year: 2020 - 2021
+      description:
+        - Reimplemented latent-space set prediction for X-ray report generation
+        - Trained YOLOv5 for Cytomegalovirus detection (mAP 0.91)
+        - Developed Parkinson’s disease diagnosis model
+
+- title: Publications
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - "Auditory-Inspired Transformer for Binaural Speech Enhancement and Spatial Cue Preservation (ICASSP 2026)"
+        - "Quantifying Speaker Embedding Phonological Rule Interactions in Accented Speech Synthesis (ICASSP 2026)"
+    - year: 2025
+      items:
+        - "Amplifying Artifacts with Speech Enhancement in Voice Anti-Spoofing (Interspeech 2025)"
+        - "Decom-Renorm-Merge: Model Merging on the Right Space Improves Multitasking (Preprint)"
+    - year: 2024
+      items:
+        - "Thunder: Unified Regression-Diffusion Speech Enhancement with a Single Reverse Step using Brownian Bridge (Interspeech 2024)"
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant
+      institution: Chulalongkorn University
+      year: 2022 - 2025
+      description:
+        - Prepared lectures and assignments for programming, mathematics, and pattern recognition courses
+    - title: Data Scientist Intern
+      institution: Looloo Technology
+      year: 2022
+      description:
+        - Developed AI Doctor application for symptom analysis
+        - Built Android app using Flutter
+        - Integrated speech-to-text API for real-time input
+        - Improved symptom entity recognition performance to ~80% precision and recall
+    - title: NVIDIA Student Ambassador
+      institution: NVIDIA AI Technology Center (NVAITC)
+      year: 2021 - 2023
+      description:
+        - Applied NVIDIA SDK in CV, NLP, and federated learning
+        - Conducted workshops for students
+    - title: Machine Learning Engineer Intern
+      institution: Fitforce
+      year: 2021
+      description:
+        - Built exercise classifier using pose estimation
+        - Improved model using LSTM
+        - Deployed models in C++ and C#
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Dentist Voice Assistant Web Application
+      year: 2022 - 2024
+      description:
+        - Led system design and development
+        - Built ASR and token classification pipeline
+        - Integrated WebRTC and GRPC for real-time processing
+        - Deployed on AWS using Docker
+        - Reduced ASR workload using voice activity detection
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python (PyTorch, TensorFlow, NumPy, Scikit-learn, Pandas)
+        - C/C++
+        - MATLAB
+    - title: Languages
+      items:
+        - Thai (Native)
+        - English (TOEFL iBT 102)
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2024
-      [cite_start]title: Interspeech 2024 Travel Grant [cite: 71]
-    - year: 2024
-      [cite_start]title: 11th Place, ASVSpoof 2024 Challenge [cite: 70]
+      items:
+        - Travel Grant for Interspeech 2024
+        - 11th Place, ASVspoof 2024 Challenge
     - year: 2023
-      [cite_start]title: First-Class Honors, B.Eng. in Computer Engineering [cite: 8]
-    - year: 2022
-      [cite_start]title: 1st Place, AI and Robotics Ventures Subsea Competition [cite: 66]
-
-- title: Skills
-  type: list
-  contents:
-    - title: Programming
-      [cite_start]value: Python (PyTorch, TensorFlow, NumPy, Scikit-learn, Pandas), Matlab, C/C++, Flutter. [cite: 44, 63]
-    - title: Machine Learning
-      [cite_start]value: Speech Recognition (Gowajee), Token Classification (WangchanBERTa), YOLOv5, LSTM, GNN. [cite: 27, 51, 55, 69]
-    - title: Tools & Platforms
-      [cite_start]value: AWS, Docker, WebRTC, gRPC, Google Cloud STT. [cite: 45, 55, 56]
-
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: NVIDIA Student Ambassador
-      [cite_start]institution: NVIDIA AI Technology Center (NVAITC) [cite: 49]
-      [cite_start]year: 2021 - 2023 [cite: 48]
-      [cite_start]description: Conducted workshops and applied NVIDIA SDK to CV, NLP, and federated learning. [cite: 49]
-    - title: Data Scientist Intern
-      [cite_start]institution: Looloo Technology [cite: 41]
-      [cite_start]year: 2022 [cite: 42]
-      [cite_start]description: Developed a symptom entity recognition model using dictionary-based tokenization (80% precision/recall). [cite: 46]
+      items:
+        - 1st Place, AI and Robotics Ventures Subsea Competition
+        - 2nd Place, Thailand Machine Learning for Chemistry Competition
+        - 2nd Place, Computer Engineering Mathematics II and Programming Methodology Courses
