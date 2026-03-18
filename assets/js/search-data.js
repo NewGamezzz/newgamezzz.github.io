@@ -391,16 +391,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-traveled-to-interspeech-2024-to-present-my-work",
+          title: 'Traveled to Interspeech 2024 to present my work.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-new-preprint-released-decom-renorm-merge-exploring-model-merging-for-multitasking",
+          title: 'New preprint released: “Decom-Renorm-Merge” exploring model merging for multitasking.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-moved-to-los-angeles-to-begin-my-master-s-in-computer-science-at-usc",
+          title: 'Moved to Los Angeles to begin my Master’s in Computer Science at USC....',
+          description: "",
+          section: "News",},{id: "news-excited-to-announce-that-two-papers-have-been-accepted-at-icassp-2026",
+          title: 'Excited to announce that two papers have been accepted at ICASSP 2026!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
