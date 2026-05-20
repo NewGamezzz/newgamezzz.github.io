@@ -1,8 +1,12 @@
 metadata:
-  last_updated: '2026-04-08'
+  last_updated: '2026-05-20'
 papers:
+  zbCoi_EAAAAJ:35N4QoGY0k4C:
+    citations: 0
+    title: Auditory-Inspired Transformer for Binaural Speech Enhancement and Spatial Cue Preservation
+    year: '2026'
   zbCoi_EAAAAJ:J_g5lzvAfSwC:
-    citations: 2
+    citations: 4
     title: Quantifying Speaker Embedding Phonological Rule Interactions in Accented Speech Synthesis
     year: '2026'
   zbCoi_EAAAAJ:NaGl4SEjCO4C:
@@ -18,7 +22,7 @@ papers:
     title: Targeted Speaker Poisoning Framework in Zero-Shot Text-to-Speech
     year: '2026'
   zbCoi_EAAAAJ:ns9cj8rnVeAC:
-    citations: 8
+    citations: 9
     title: 'Thunder: Unified regression-diffusion speech enhancement with a single reverse step using Brownian bridge'
     year: '2024'
   zbCoi_EAAAAJ:vV6vV6tmYwMC:
