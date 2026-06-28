@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /legacy-about/
 subtitle: thanapat.trachu@gmail.com | <a href='https://www.cs.usc.edu/'>USC Computer Science</a> | <a href="https://newgamezzz.github.io/assets/pdf/Curriculum_Vitae.pdf" target="_blank">CV</a>
 
 profile:
