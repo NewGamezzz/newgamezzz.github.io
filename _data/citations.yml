@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-07-06'
 papers:
   zbCoi_EAAAAJ:35N4QoGY0k4C:
     citations: 0
@@ -26,6 +26,6 @@ papers:
     title: 'Thunder: Unified regression-diffusion speech enhancement with a single reverse step using Brownian bridge'
     year: '2024'
   zbCoi_EAAAAJ:vV6vV6tmYwMC:
-    citations: 1
+    citations: 2
     title: 'Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data'
     year: '2026'
