@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-08-21'
 papers:
   zbCoi_EAAAAJ:35N4QoGY0k4C:
     citations: 0
@@ -7,10 +7,10 @@ papers:
     year: '2026'
   zbCoi_EAAAAJ:J_g5lzvAfSwC:
     citations: 4
-    title: Quantifying Speaker Embedding Phonological Rule Interactions in Accented Speech Synthesis
+    title: Quantifying speaker embedding phonological rule interactions in accented speech synthesis
     year: '2026'
   zbCoi_EAAAAJ:NaGl4SEjCO4C:
-    citations: 0
+    citations: 1
     title: Amplifying Artifacts with Speech Enhancement in Voice Anti-spoofing
     year: '2025'
   zbCoi_EAAAAJ:RGFaLdJalmkC:
@@ -23,9 +23,9 @@ papers:
     year: '2026'
   zbCoi_EAAAAJ:ns9cj8rnVeAC:
     citations: 9
-    title: 'Thunder: Unified regression-diffusion speech enhancement with a single reverse step using Brownian bridge'
+    title: 'Thunder: Unified regression-diffusion speech enhancement with a single reverse step using brownian bridge'
     year: '2024'
   zbCoi_EAAAAJ:vV6vV6tmYwMC:
-    citations: 2
+    citations: 3
     title: 'Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data'
     year: '2026'
