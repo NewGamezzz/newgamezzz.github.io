@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-21'
+  last_updated: '2026-08-31'
 papers:
   zbCoi_EAAAAJ:35N4QoGY0k4C:
     citations: 0
@@ -22,7 +22,7 @@ papers:
     title: Targeted Speaker Poisoning Framework in Zero-Shot Text-to-Speech
     year: '2026'
   zbCoi_EAAAAJ:ns9cj8rnVeAC:
-    citations: 9
+    citations: 10
     title: 'Thunder: Unified regression-diffusion speech enhancement with a single reverse step using brownian bridge'
     year: '2024'
   zbCoi_EAAAAJ:vV6vV6tmYwMC:
